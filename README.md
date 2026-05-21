@@ -4,7 +4,7 @@
 
 **核心理念**：Claude Code 能力很强，但有两个致命弱点 — (1) 配额不稳（424 错误）会自动重试但不保证恢复，(2) 上下文会满。通过 **tmux 做进程隔离 + 两个 Claude 分工**，让监工通过文件协议和脚本驱动工人，配合心跳看门狗，实现**睡一觉醒来代码写好了**。
 
-![HOW MY CODE GETS WRITTEN AT 3AM](cover.png)
+![HOW MY CODE GETS WRITTEN AT 3AM](./cover.jpg)
 
 ## 架构
 
