@@ -1,0 +1,28 @@
+{
+  "name": "pi-unattended-workflow",
+  "version": "0.1.0",
+  "description": "A Pi extension package for unattended coding workflows using .orch file protocol.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "pack:local": "npm pack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0",
+    "@earendil-works/pi-coding-agent": "latest"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"],
+    "skills": ["./skills/unattended-worker"],
+    "prompts": [
+      "./prompts/orch-task.md",
+      "./prompts/orch-recover.md",
+      "./prompts/orch-verify-failed.md"
+    ]
+  },
+  "keywords": ["pi", "coding-agent", "extension", "unattended", "workflow", "orchestrator"]
+}
