@@ -21,7 +21,7 @@
     "prompts": [
       "./prompts/orch-task.md",
       "./prompts/orch-recover.md",
-      "./prompts/orch-verify-failed.md"
+      "./prompts/orch-verify-repair.md"
     ]
   },
   "keywords": ["pi", "coding-agent", "extension", "unattended", "workflow", "orchestrator"]
